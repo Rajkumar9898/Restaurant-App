@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const HeroSection = () => {
   return (
     <section className="heroSection" id="heroSection">
+      <Navbar />
       <div className="container">
         <div className="banner">
           <div className="largeBox">
@@ -24,7 +26,7 @@ const HeroSection = () => {
         </div>
         <div className="banner">
           <div className="imageBox">
-            <img src="hero2.png" alt="hero2" />
+            <img src="hero2.png" alt="hero" />
           </div>
           <h1 className="title dishes_title">Dishes</h1>
         </div>
